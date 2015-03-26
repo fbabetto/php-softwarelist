@@ -1,0 +1,87 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<software>
+	<categoria id="000000">
+		<nome>Principale</nome>
+		<descrizione><![CDATA[]]></descrizione>
+	</categoria>
+	<categoria id="010000">
+		<nome>Management software</nome>
+		<descrizione><![CDATA[
+			<p>Category description here.</p>
+				]]>
+		</descrizione>
+		<prodotto id="010100">
+			<nome>First product</nome>
+			<descrizione><![CDATA[
+				<p>HTML description of the first product</p>
+				<p>
+					Those are the caracteristics:
+					<ul>
+						<li>This software is awesome;</li>
+						<li>and beautiful.</li>
+					</ul>
+				</p>
+				]]>
+			</descrizione>
+			<sottoprodotto id="010101">
+				<nome>First subproduct</nome>
+				<descrizione><![CDATA[ 
+					<p>This module for "First Product" allow you to launch rockets!*</p>
+					<p>*Not really (gas not included).</p>
+					]]>
+				</descrizione>
+			</sottoprodotto>
+			<sottoprodotto id="010102">
+				<nome>Second subproduct</nome>
+				<descrizione><![CDATA[
+					<p>Nothing interesting here.</p>
+					]]>
+				</descrizione>
+			</sottoprodotto>
+		</prodotto>
+		<prodotto id="010200">
+			<nome>Second product</nome>
+			<descrizione><![CDATA[
+				<p>Another boring management software</p>
+				<p>
+					Those are the caracteristics:
+					<ul>
+						<li>A little bit less awesome than the first product;</li>
+						<li>awful :)</li>
+					</ul>
+					No subproducts needed.
+				</p>
+				]]>
+			</descrizione>	
+		</prodotto>
+		
+	</categoria>
+	<categoria id="020000">
+		<nome>Another software category</nome>
+		<descrizione><![CDATA[
+			<p>This Category has products without subproducts.</p>
+			]]>
+		</descrizione>
+		<prodotto id="021000">
+			<nome>Third product</nome>
+			<descrizione></descrizione>
+		</prodotto>
+		<prodotto id="022000">
+			<nome>Forth product</nome>
+			<descrizione></descrizione>
+		</prodotto>	
+	</categoria>
+	<categoria id="030000">
+		<nome>Downloadable software</nome>
+		<descrizione><![CDATA[
+			<p>This empty category can be used to add external download links to free resources.</p>
+                    <dl>
+                        <dt>Libreoffice</dt><dd>https://www.libreoffice.org/download/libreoffice-fresh/</dd>
+                        <dt>Firefox</dt><dd>https://www.mozilla.org/en-US/firefox/all/</dd>
+                        <dt>Thunderbird</dt><dd>https://www.mozilla.org/en-US/thunderbird/all.html</dd>
+                        <dt>Gimp</dt><dd>http://www.gimp.org/downloads/</dd>
+                    </dl>
+			]]>
+		</descrizione>
+	</categoria>
+</software>

@@ -1,0 +1,324 @@
+body {
+	font-family: Verdana, Lucida, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeec;
+	font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Verdana, Lucida, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 120%;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-size: 100%;
+}
+
+h3 {
+	font-size: 90%;
+}
+
+h4 {
+	font-size: 80%;
+}
+
+header {
+	margin: 0;
+	padding: 3%;
+	max-height: 200px;
+        background-color: lightblue;
+        font-size: 150%;
+        
+}
+
+header p {
+    margin: 0;
+    text-align: center;
+}
+
+
+nav {
+	text-align: center;
+	margin: 0;
+
+}
+
+nav ul {
+	padding: 0.5em;
+	display: inline;
+	background-color: darkgrey;
+	box-shadow: inset 0 1.8em 1em -1em white, 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+	border-radius: 30px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+}
+
+.grigio{
+	background-color: #eeeeec;
+}
+
+#main {
+	margin: 1%;
+	margin-top: 0;
+	background-color: white;
+	padding: 1%;
+	border-radius: 10px;
+	box-shadow:         7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+}
+
+#main p {
+	margin: 1%;
+}
+
+.home {
+	float: left;
+	width: 82%;
+}
+
+section {
+/*	margin: 1em;
+*/
+	
+}
+
+.software article {
+	margin-left: 18em;
+}
+
+.software aside {
+	margin-right: 30px;
+	text-align: left;
+	min-width: 150px;
+	font-size: 0.8em;
+	box-shadow: 0 1.8em 3em -1em #FFFFFF inset, 7px 7px 21px 0 rgba(50, 50, 50, 0.75);
+	font-weight: bold;
+	width: 17em;
+	padding: 1em;
+}
+
+.software aside li {
+	padding: 1em 0;
+}
+
+.software aside ul ul ul {
+	list-style: square inside none;
+}
+
+.software aside li li{
+	margin: 0.5em 0;
+	padding: 0 1em;
+}
+
+aside {
+	border-radius: 10px;
+	box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+	float: left;
+	padding: 1%;
+	background: white;
+	margin: 1%;
+	margin-top: 0;
+	width: 10%;
+	text-align: center;
+}
+
+aside h1 {
+	margin-top: 10%;
+	margin-bottom: 20%;
+	font-size: 1em;
+	font-size: 2vmin;
+}
+
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+aside li {
+	padding: 5% 0;
+}
+
+aside img {
+	margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+/*http://css-tricks.com/all-about-floats/*/
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.offer {
+	vertical-align:text-top;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	padding: 0.5%;
+	text-align: center;
+	margin: 2%;
+	border-radius: 10px;
+	box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+}
+
+.product {
+	vertical-align:text-top;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	padding: 0.5%;
+	text-align: center;
+	margin: 1%;
+	border-radius: 10px;
+	box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+}
+
+.cont {
+	background-color: #efefef;
+	vertical-align:text-top;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	padding: 0.5%;
+	margin: 1%;
+	border-radius: 10px;
+	box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+	width: 300px;
+	height: 100px;
+}
+
+.assistenza {
+	background-color: #efefef;
+	vertical-align:text-top;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	padding: 0.5%;
+	float: right;
+	text-align: right;
+	margin: 1%;
+	border-radius: 10px;
+	box-shadow: 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+	width: 300px;
+	height: 100px;
+}
+
+.assistenza ul{
+	list-style-type: none;
+}
+
+.assistenza img {
+	float: left;
+	margin-right: 0.5em;
+        display: block;
+}
+
+#negozio {
+	padding: 1%;
+	font-size: larger;
+	width: 350px;
+	height: 120px;
+}
+
+.clearfix {
+	text-align: center;
+}
+
+.prod {
+
+}
+
+footer {
+	clear: both;
+	font-size: 0.8em;
+	background-color: lightblue;
+	margin: 0;
+	padding: 0.1em;
+	text-align: center;
+}
+
+li .external {
+   font-style: oblique; 
+}
+
+a.external:after {
+/*   content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png); */
+	content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICB3aWR0aD0iMTAiCiAgIGhlaWdodD0iMTAiCiAgIGlkPSJzdmcyIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE3Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZwogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04MjYuNDI4NTksLTY5OC43OTA3NykiCiAgICAgaWQ9ImxheWVyMSI+CiAgICA8cmVjdAogICAgICAgd2lkdGg9IjUuOTgyMTQyOSIKICAgICAgIGhlaWdodD0iNS45ODIxNDI5IgogICAgICAgeD0iODI2LjkyODU5IgogICAgICAgeT0iNzAyLjMwODY1IgogICAgICAgaWQ9InJlY3QyOTk2IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MTtzdHJva2U6IzAwNjZjYztzdHJva2Utd2lkdGg6MXB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgICA8ZwogICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxMDY3OCwwLjcwNzEwNjc4LC0wLjcwNzEwNjc4LDAuNzA3MTA2NzgsNzYyLjg3LC0zNTkuODgzMzkpIgogICAgICAgaWQ9Imc0ODE1Ij4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSA3OTYuOTA4MTksNzAwLjI4MzE3IDMuNzAxMjcsLTMuNzAxMjYgMy44MTE3NCwzLjgxMTc1IC0wLjAxODksMi4yMDMzNiAtMS44NTIzNCwwIDAsMy44NTQzIC0zLjgwMjMzLDAgMCwtMy45NzEwOCAtMS44NTM2LDAgeiIKICAgICAgICAgaWQ9InBhdGg0Nzc3IgogICAgICAgICBzdHlsZT0iZmlsbDojMDA2NmZmO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lIiAvPgogICAgICA8cGF0aAogICAgICAgICBkPSJtIDgwMC42MDk0Niw2OTguMDAyNDQgMy40Njk4NiwzLjQzODY1IC0yLjU3MDIsMCAwLDQuMDc0MzYgLTEuNzM2MiwwIDAsLTQuMDc0MzYgLTIuNjE3NTQsLTMuNmUtNCB6IgogICAgICAgICBpZD0icGF0aDQ3NzkiCiAgICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K");
+  margin: 0 0 0 5px;
+}
+
+@media screen and (max-width: 670px) {
+.home {
+	width: 96%;
+	float: none;
+}
+
+aside {
+	display: inline;
+	width: 96%;
+}
+
+aside h1 {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 1em;
+}
+
+aside ul {
+	display: inline;
+}
+
+aside li {
+	display: inline;
+	padding: 0.1%;
+}
+
+aside img {
+	display: inline;
+}
+
+	header p {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	header img {
+	width: 33%;
+}
+
+	nav ul{
+	display: block;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: none;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 1%;
+		background-color: orange;
+		box-shadow: inset 0 1.2em 1em -1em white, 7px 7px 21px 0px rgba(50, 50, 50, 0.75);
+		border-radius: 30px;
+		padding: 2%;
+	}
+}
